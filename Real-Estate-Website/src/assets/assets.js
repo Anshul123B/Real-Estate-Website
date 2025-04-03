@@ -18,7 +18,9 @@ import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
 
-export const assets = {//creating the object for the all images so that we can easily access all the files necause we aded here Export
+//creating the object for the all images 
+// so that we can easily access all the files because we added here Export
+export const assets = {
     logo,
     logo_dark,
     cross_icon,
@@ -38,39 +40,39 @@ export const assets = {//creating the object for the all images so that we can e
 //by creating the multile objects in array
 export const projectsData = [
     {
-      title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
+      title: "Sunrays Heaven",
+      price: "2,50,000",
+      location: "Mumbai",
       image: project_img_1
     },
     {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
+      title: "Vistara Palace",
+      price: "2,50,000",
+      location: "Banglore",
       image: project_img_2
     },
     {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
+      title: "rainbow Ambience",
+      price: "2,50,000",
+      location: "Pune",
       image: project_img_3
     },
     {
       title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
+      price: "$,50,000",
+      location: "Mumbai",
       image: project_img_4
     },
     {
       title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
+      price: "2,50,000",
+      location: "Banglore",
       image: project_img_5
     },
     {
       title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
+      price: "2,50,000",
+      location: "Pune",
       image: project_img_6
     },
     
