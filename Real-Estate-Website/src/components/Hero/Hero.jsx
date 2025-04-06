@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Hero.css"
+import { HiLocationMarker } from 'react-icons/hi2';
+
+
 
 const Hero = () => {
   return (
@@ -8,8 +11,9 @@ const Hero = () => {
         <div className="paddings innerwidth flexCenter hero-center">
 
             {/*Left Side*/}
-            <div className="hero-left">
+            <div className="flexColStart hero-left">
                 <div className="hero-title">
+                    <div className="orange-circle"/>
                     <h1>
                         Spot <br/>
                         Best-Fit <br/> Property
@@ -22,7 +26,7 @@ const Hero = () => {
                 </div>
 
                 <div className="search-bar">
-                    search bar
+                    <HiLocationMarker color="var(--blue)" size={25}/>
                 </div>
             </div>
 
