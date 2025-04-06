@@ -7,10 +7,26 @@ const Hero = () => {
       <section className="hero-wrapper">
         <div className="paddings innerwidth flexCenter hero-center">
 
+            {/*Left Side*/}
             <div className="hero-left">
-                Left Section
+                <div className="hero-title">
+                    <h1>
+                        Spot <br/>
+                        Best-Fit <br/> Property
+                    </h1>
+                </div>
+
+                <div className=" flexColStart hero-dis">
+                    <span>Discover a property that perfectly matches your needs and lifestyle</span>
+                    <span>Find your ideal space with properties tailored just for you</span>
+                </div>
+
+                <div className="search-bar">
+                    search bar
+                </div>
             </div>
 
+            {/*Right side*/}
             <div className=" flexCenter hero-right">
                 <div className="image-container">
                     <img src="./hero-image.png" alt=""/>

@@ -12,15 +12,15 @@
 
 /*Right Side*/
  .image-container{
-    width: 30rem;
-    height: 35rem;
+    width: 28rem;
+    height: 35srem;
     overflow: hidden;
     border-radius: 15rem 15rem 0 0;
     border: 8px solid rgba(255, 255, 255,0.12);
  }
 
  .hero-right{
-    margin-left: 32%;
+    margin-left: 15%;
  }
  .image-container>img{
     width: 100%;
