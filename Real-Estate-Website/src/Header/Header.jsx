@@ -12,7 +12,7 @@ const Header = () => {
                 <a href="">
                     Residencies
                 </a>
-                <a href="">Our Value</a>
+                <a href="">About</a>
                 <a href=""> Contact us</a>
                 <a href="">Get Started</a>
               <button className="button">
