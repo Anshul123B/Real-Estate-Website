@@ -22,8 +22,8 @@ const Hero = () => {
                 </div>
 
                 <div className=" flexColStart hero-dis">
-                    <span>Discover a property that perfectly matches your needs and lifestyle</span>
-                    <span>Find your ideal space with properties tailored just for you</span>
+                    <span className="secondaryText">Discover a property that perfectly matches your needs and lifestyle</span>
+                    <span className="secondaryText">Find your ideal space with properties tailored just for you</span>
                 </div>
 
                 <div className="flexCenter search-bar">
@@ -33,15 +33,41 @@ const Hero = () => {
                 <input type="text"/>
                 <button className="button">Search</button>
                 </div>
+
                 <div className="flexCenter stats">
-                  <div className="flexColstart stat">
+                  <div className="flexColcenter stat">
                     <span>
                       <CountUp start={8800} end={9000} duration={4}/>
+                      <span>+</span>
                       </span>
-                      <span>
+                      <span className="secondaryText">
+                        <br/>
                         Premium Products
                       </span>
                   </div>
+
+                  <div className="flexColcenter stat">
+                    <span>
+                      <CountUp start={1950} end={2000} duration={4}/>
+                      <span>+</span>
+                      </span>
+                      <span className="secondaryText">
+                        <br/>
+                        Happy Customer
+                      </span>
+                  </div>
+
+                  <div className="flexColcenter stat">
+                    <span>
+                      <CountUp end={28}/>
+                      <span>+</span>
+                      </span>
+                      <span className="secondaryText">
+                        <br/>
+                        Award Winning
+                      </span>
+                  </div>
+
                 </div>
             </div>
 
