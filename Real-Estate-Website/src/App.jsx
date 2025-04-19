@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import "./App.css";
 import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residencies/Residencies";
+import Value from "./components/Value/Value";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       </div>
       <Companies/>
       <Residencies/>
+      <Value/>
     </div>
   );
 }
