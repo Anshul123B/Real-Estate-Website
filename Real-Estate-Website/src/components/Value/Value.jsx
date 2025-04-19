@@ -11,12 +11,13 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from 'react-icons/md'
 import './value.css'
+import data from '../../utils/accordion'
 
 const Value = () => {
   return (
     <div>
       <section className="v-wrapper">
-        <div className="padding innerWidth flexCenter v-vontainer">
+        <div className="padding innerWidth flexCenter v-container">
             {/*left side */}
             <div className="v-left">
                 <div className="image-container">
@@ -35,6 +36,38 @@ const Value = () => {
                       <br />
                       We believe the right place to live can truly enhance your life.
                 </span>
+
+                <Accordion className="accordion"
+                  allowMultipleExpanded={false}
+                  preExpanded={[0]}
+                >
+                  {
+                    data.map((item, i) => {
+                      return (
+                        <AccordionItem className='accordionItems' key={i} uuid={i}>
+                          <AccordionItemHeading>
+                            <AccordionItemButton>
+                              <div className="flexCenter icon">{item.icon}</div>
+                              <span className="primaryText">
+                                {item.heading}
+                              </span>
+                              <div className="flexCenter icon">
+                                <MdOutlineArrowDropDown size={20}/>
+                              </div>
+                            </AccordionItemButton>
+                          </AccordionItemHeading>
+
+                          <AccordionItemPanel>
+                            <p className="secondaryText">
+                              {item.detail}
+                            </p>
+                          </AccordionItemPanel>
+                        </AccordionItem>
+                      )
+                    })
+                  }  
+                </Accordion>
+
             </div>
         </div>
       </section>
