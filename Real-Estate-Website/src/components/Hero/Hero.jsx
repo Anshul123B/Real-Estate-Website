@@ -30,7 +30,7 @@ const Hero = () => {
 
                   {/*Fetch the location icon from reacticons*/}
                 <IoIosPin color="var(--blue)" size={25}/>
-                <input type="text"/>
+                <input type="text" placeholder="Search location..." className="input" />
                 <button className="button">Search</button>
                 </div>
 
