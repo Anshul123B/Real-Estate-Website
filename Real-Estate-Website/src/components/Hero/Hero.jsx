@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div>
       <section className="hero-wrapper">
-        <div className="paddings innerwidth flexCenter hero-center">
+        <div className="paddings innerwidth flexCenter hero-container">
 
             {/*Left Side*/}
             <div className="flexColStart hero-left">
