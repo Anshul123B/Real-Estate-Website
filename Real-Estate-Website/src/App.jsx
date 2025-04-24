@@ -17,10 +17,10 @@ function App() {
       <Header/>
       <Hero/>
       </div>
-      {/*<Companies/>
+      <Companies/>
       <Residencies/>
       <Value/>
-      <Contact/>
+     {/* <Contact/>
       <GetStarted/>
       <Footer/>*/}
     </div>

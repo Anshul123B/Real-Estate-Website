@@ -28,7 +28,7 @@ const Hero = () => {
 
                 <div className="flexCenter search-bar">
 
-                  {/*Fetch the location icon from reacticons*/}
+                  {/*Fetch the location icon from react icons*/}
                 <IoIosPin color="var(--blue)" size={25}/>
                 <input type="text" placeholder="Search location..." className="input" />
                 <button className="button">Search</button>
