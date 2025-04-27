@@ -128,3 +128,51 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* Apply dark mode background and text globally */
+body.dark-mode {
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+/* Optional: specifically darken common sections if needed */
+body.dark-mode .h-wrapper,
+body.dark-mode .hero-wrapper,
+body.dark-mode .c-wrapper,
+body.dark-mode .v-wrapper,
+body.dark-mode .r-wrapper {
+  background-color: #111;
+}
+
+/* Text color adjustments inside dark mode */
+body.dark-mode .primaryText {
+  color: #f1f1f1;
+}
+body.dark-mode .secondaryText {
+  color: #c1c1c1;
+}
+body.dark-mode .orangeText {
+  color: #ffb347;
+}
+body.dark-mode .button {
+  background: var(--lightBlue);
+  color: var(--blue);
+}
+body.dark-mode .button:hover {
+  background: var(--blue-gradient);
+  color: white;
+  transform: scale(1.1);
+}
+/* Smooth transition when switching modes */
+body,
+.h-wrapper,
+.hero-wrapper,
+.c-wrapper,
+.v-wrapper,
+.r-wrapper,
+.primaryText,
+.secondaryText,
+.orangeText,
+.button {
+  transition: all 0.3s ease;
+}
