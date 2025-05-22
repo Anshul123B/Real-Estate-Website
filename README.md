@@ -12,7 +12,8 @@ Features
 
 5. Smooth and interactive user interface
 
-Technologies Used
+Technologies Used 
+
 -React
 
 -HTML
@@ -31,4 +32,5 @@ How to Use
 -Visit http://localhost:3000 in your browser
 
 Contributing
+
 Contributions are welcome! Please fork the repository and create a pull request with your improvements.
