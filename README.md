@@ -29,7 +29,7 @@ How to Use
 
 -Run the app using npm start
 
--Visit http://localhost:3000 in your browser
+-Visit http://localhost: XXXX in your browser
 
 Contributing
 
